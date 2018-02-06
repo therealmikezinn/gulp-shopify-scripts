@@ -1,0 +1,11 @@
+{
+  "name": "gulp-shopify-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Michael Zinn",
+  "license": "MIT",
+  "dependencies": {
+    "shopify-api-node": "^2.11.0",
+    "through2": "^2.0.3"
+  }
+}
