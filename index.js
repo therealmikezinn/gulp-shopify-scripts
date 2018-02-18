@@ -31,9 +31,8 @@ module.exports = function(options){
             return through2.obj(function(id, enc, cb){
                 const self = this;
 
-                API.scriptTag.delete({
-                    id
-                }).then(result => {
+                API.scriptTag.delete(id)
+                .then(result => {
                     self.push(result);
                     cb();
                 }).catch(err => {
